@@ -1,0 +1,24 @@
+header h1{
+    text-align: center;
+    animation-name: title;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes title{
+    0%{
+        color: rgb(41, 211, 160);
+    }
+
+    33%{
+        color: black;
+    }
+
+    66%{
+        color: white;
+    }
+
+    100%{
+        color: rgb(41, 211, 160);
+    }
+}

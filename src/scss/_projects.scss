@@ -7,5 +7,33 @@
     &__block{
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-large;
+        background-color: #22353F;
+        padding: 20px;
+        width: 25vw;
+        margin: 10px;
+        color: rgb(41, 211, 160);
+    }
+
+    &__block h3{
+        margin: 5px;
+    }
+
+    &__block:hover img{
+        transform: scale(110%);
+        transition: 1s;
+
+    }
+
+    &__block:hover h3{
+        text-decoration: underline;
+    } 
+
+    &__block img{
+        width: 20vw;
+        height: 25vh;
+        padding: 10px;
     }
 }
