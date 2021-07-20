@@ -1,0 +1,11 @@
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects{
+    &__block{
+        display: flex;
+        flex-direction: column;
+    }
+}
