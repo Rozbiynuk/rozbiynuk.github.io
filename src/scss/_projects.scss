@@ -1,5 +1,6 @@
 .projects{
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -13,7 +14,6 @@
         background-color: #22353F;
         padding: 20px;
         width: 25vw;
-        margin: 10px;
         color: rgb(41, 211, 160);
     }
 

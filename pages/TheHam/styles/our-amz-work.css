@@ -5,8 +5,6 @@
     margin-bottom: 60px;
 }
 
-
-
 .our-amazing-work .buttons{
     margin-bottom: 60px;
 }
@@ -17,6 +15,11 @@
     outline: none;
     color: rgb(113,113,113);
     padding: 20px;
+    cursor: pointer;
+}
+
+.our-amazing-work .buttons button:hover{
+    border-color: black;
 }
 
 .our-amazing-work .buttons .active{
