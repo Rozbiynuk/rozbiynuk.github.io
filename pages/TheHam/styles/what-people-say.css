@@ -1,6 +1,7 @@
 .what-say{
     background-image: url(../images/SectionsBackground/section-3.jpg);
-    background-size: 100%;
+    background-size: cover;
+    background-position: center;
     position: relative;
     display: flex;
     flex-direction: column;
