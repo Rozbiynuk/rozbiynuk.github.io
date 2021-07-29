@@ -6,3 +6,59 @@ body{
 .inactive{
     display: none;
 }
+/* Intro */
+
+.intro{
+    display: flex;
+    
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+   
+
+}
+.intro__inner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+    
+position: relative;
+}
+.intro__title{
+    padding: 20px;
+
+top: 0;
+left: 0;
+z-index: 1;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 42px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+
+color: #EC1C24;
+
+}
+
+.intro__text{
+    position: absolute;
+margin-top: 80px;
+margin-left: 20px;
+
+font-family: SF Pro Display;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.1em;
+
+color: rgba(26, 26, 26, 0.6);
+text-align: left;
+}
