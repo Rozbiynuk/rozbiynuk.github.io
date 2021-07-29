@@ -1,0 +1,44 @@
+.main{
+    .autopark{
+
+        padding: 50px;
+        background-color: white;
+
+        h1{
+            color: $red1;
+            font-size: 40px;
+            text-align: center;
+            padding: 20px;
+            font-weight: 500;
+        }
+
+        h2{
+            color:#1A1A1AE5;
+            font-size: 30px;
+            text-align: center;
+            padding: 30px;
+            margin-bottom: 50px;
+            font-weight: 500;
+        }
+
+        .autos{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+
+        .autos-comp{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: #1a1a1a93;            
+            padding: 30px;
+        }
+
+        .autos-comp img{
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+.main{
+    .our-company{
+
+        background-color: #E5E5E5;
+        padding: 100px 30px;
+
+        h1{
+            color: $main-theme-color;
+            font-size: 40px;
+            text-align: center;
+            padding: 20px;
+            font-weight: 500;
+        }
+
+        h2{
+            color:#1A1A1AE5;
+            font-size: 30px;
+            text-align: center;
+            padding: 10px;
+            font-weight: 500;
+        }
+
+        
+
+        .advantages{
+            display: flex;
+            justify-content: space-around;
+            padding: 50px 0;
+            flex-wrap: wrap;
+           
+            
+
+            .advantage{
+                background-color: white;
+                border-radius: 10%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 30px;
+                width: 15%;
+                cursor: pointer;
+
+                img, h4, p{
+                    padding: 20px;
+                }
+
+                img{
+                    width: 80px;
+                    height: 80px;
+                }
+
+                h4{
+                    font-size: 15px;
+                    text-align: center;
+                }
+
+                p{
+                    font-size: 12px;
+                    text-align: center;
+                    font-weight: 100;
+                }
+            }
+            @media (max-width: 1180px){
+                .advantage{
+                    width: 30%;
+                    margin: 5%;
+                }
+    
+                
+            }
+            
+            @media (max-width: 920px){
+                .advantage{
+                    width: 40%;
+                }
+            }
+
+            @media (max-width: 830px){
+                .advantage{
+                    width: 60%;
+                }
+            }
+
+            @media (max-width: 500px){
+                .advantage{
+                    width: 80%;
+                }
+            }
+    
+
+            
+        }
+        
+    }
+    
+}
